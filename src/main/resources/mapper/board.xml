@@ -12,6 +12,8 @@
         </if>
     </select>
 
+
+
     <select id="findAll" resultType="shop.mtcoding.mybatis_dynamic_query_practice.model.Board">
         select * from board_tb
     </select>

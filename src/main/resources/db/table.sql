@@ -17,6 +17,14 @@ CREATE TABLE board_tb(
     created_at timestamp not null
 );
 
+CREATE TABLE compboard_tb(
+    id int auto_increment primary key,
+    compname varchar,
+    title varchar,
+    comprole varchar not null,
+    created_at timestamp not null
+);
+
 CREATE TABLE reply_tb(
     id int auto_increment primary key,
     comment varchar(100) not null,
