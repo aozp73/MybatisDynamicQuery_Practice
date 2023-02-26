@@ -17,7 +17,7 @@ import shop.mtcoding.mybatis_dynamic_query_practice.model.CompRepository;
 @RequiredArgsConstructor
 @Controller
 public class BoardController {
-
+    // 코드 복습 1회
     private final CompRepository compRepository;
 
     @GetMapping("/chooseWhenOtherwise")
